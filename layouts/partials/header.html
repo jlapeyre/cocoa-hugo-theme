@@ -45,6 +45,10 @@
             <a href="{{ .Site.Params.github }}" target="_blank" rel="noopener"><img class="icon" src="/img/github.svg" alt="github" /></a>
         {{ end }}
 
+        {{ if .Site.Params.orcid }}
+            <a href="{{ .Site.Params.orcid }}" target="_blank" rel="noopener"><img class="icon" src="/img/vector_iD_icon-bw.svg" alt="orcid" /></a>
+        {{ end }}
+            
         {{ if .Site.Params.twitter }}
             <a href="{{ .Site.Params.twitter }}" target="_blank" rel="noopener"><img class="icon" src="/img/twitter.svg" alt="twitter" /></a>
         {{ end }}
