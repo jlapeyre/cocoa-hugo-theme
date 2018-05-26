@@ -51,6 +51,10 @@
             <a href="{{ .Site.Params.googlescholar }}" target="_blank" rel="noopener"><img class="icon" src="/img/googlescholar.svg" alt="googlescholar" /></a>
         {{ end }}
 
+        {{ if .Site.Params.juliadiscourse }}
+            <a href="{{ .Site.Params.juliadiscourse }}" target="_blank" rel="noopener"><img class="icon" src="/img/juliaopt.svg" alt="juliadiscourse" /></a>
+        {{ end }}            
+
         {{ if .Site.Params.orcid }}
             <a href="{{ .Site.Params.orcid }}" target="_blank" rel="noopener"><img class="icon" src="/img/orcid.svg" alt="orcid" /></a>
         {{ end }}
