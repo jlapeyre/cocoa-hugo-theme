@@ -2,8 +2,14 @@
 - id: latestPosts
   translation: "Latest Posts"
 
+- id: latestNews
+  translation: "Latest News"  
+
 - id: blogHeading
   translation: "Blog"
+
+- id: newsHeading
+  translation: "News"
 
 - id: musicHeading
   translation: "Music"

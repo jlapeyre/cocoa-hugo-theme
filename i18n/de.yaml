@@ -2,11 +2,17 @@
 - id: latestPosts
   translation: "Die aktuellsten Artikel"
 
+- id: latestNews
+  translation: "Die aktuellsten Artikel"
+  
 - id: blogHeading
   translation: "Blog"
 
 - id: musicHeading
   translation: "Musik"  
+
+- id: newsHeading
+  translation: "News"
   
 - id: pageNotFound
   translation: "Entschuldigung, diese Seite existiert nicht."
