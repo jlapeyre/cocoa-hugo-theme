@@ -44,16 +44,22 @@
         {{ if .Site.Params.github }}
             <a href="{{ .Site.Params.github }}" target="_blank" rel="noopener"><img class="icon" src="/img/github.svg" alt="github" /></a>
         {{ end }}
+
+        {{ if .Site.Params.gitlab }}
+            <a href="{{ .Site.Params.gitlab }}" target="_blank" rel="noopener"><img class="icon" src="/img/gitlab.svg" alt="gitlab" /></a>
+        {{ end }}
+
         {{ if .Site.Params.cv }}
             <a href="{{ .Site.Params.cv }}" target="_blank" rel="noopener"><img class="icon" src="/img/cv.svg" alt="cv" /></a>
         {{ end }}
+
         {{ if .Site.Params.googlescholar }}
             <a href="{{ .Site.Params.googlescholar }}" target="_blank" rel="noopener"><img class="icon" src="/img/googlescholar.svg" alt="googlescholar" /></a>
         {{ end }}
 
         {{ if .Site.Params.juliadiscourse }}
             <a href="{{ .Site.Params.juliadiscourse }}" target="_blank" rel="noopener"><img class="icon" src="/img/juliaopt.svg" alt="juliadiscourse" /></a>
-        {{ end }}            
+        {{ end }}
 
         {{ if .Site.Params.orcid }}
             <a href="{{ .Site.Params.orcid }}" target="_blank" rel="noopener"><img class="icon" src="/img/orcid.svg" alt="orcid" /></a>
