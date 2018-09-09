@@ -18,6 +18,12 @@
 		    <div class="reading-time"><div class="middot"></div>{{ i18n "readingTime" .ReadingTime }}</div>
                     {{ end }}
                 </div>
+                {{ if not (eq .Lastmod .Date) }}
+                <div class="lastmod"> Last modified on
+                  {{ dateFormat ( or $.Site.Params.dateFormat "Jan 2, 2006" ) $.Page.Params.LastMod }} </div>
+                {{ else }}
+                <div class="lastmod"> </div>
+                {{end}}
             </div>
             <div class="markdown">
                 {{ .Content }}
