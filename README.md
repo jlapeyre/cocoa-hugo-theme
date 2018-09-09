@@ -1,3 +1,15 @@
+# Modfied Cocoa
+
+This is a slightly modified fork of the cocoa theme. The documentation after the first section on
+modifications is unchanged.
+
+## Modifications
+
+* Added optional icon buttons in footer: CV (local cv/resume), Google scholar, Orcid Id, Julia Discourse profile.
+* Added optional "Last modified on ..." under title and date in front matter of posts.
+* Added separate posts section for music.
+* Enlarged avatar (picture in circle) slightly.
+
 # Cocoa
 
 A consistent and responsive [Hugo](https://gohugo.io) [theme](https://github.com/spf13/hugoThemes/) with clean typography. The primary typefaces are Open Sans, Raleway, and Ubuntu Mono.
