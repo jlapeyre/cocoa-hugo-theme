@@ -3,17 +3,20 @@
   translation: "Latest Posts"
 
 - id: latestNews
-  translation: "Latest News"  
+  translation: "Latest News"
 
 - id: blogHeading
   translation: "Blog"
+
+- id: postsHeading
+  translation: "Posts"
 
 - id: newsHeading
   translation: "News"
 
 - id: musicHeading
   translation: "Music"
-  
+
 - id: pageNotFound
   translation: "Sorry, this page does not exist."
 
