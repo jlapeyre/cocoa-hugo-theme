@@ -388,7 +388,13 @@ section.main .content .front-matter .meta {
   display: -ms-flexbox;
   display: -ms-flex;
   display: flex;
-  margin-bottom: 32px;
+  margin-bottom: 4px; /* gjl make this smaller */
+}
+section.main .content .front-matter .lastmod { /* gjl added this */
+    color: #666;
+    font-size: 14px;
+    font-style: oblique;
+    margin-bottom: 32px;
 }
 section.main .content .front-matter .date,
 section.main .content .front-matter .word-count,
